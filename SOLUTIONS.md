@@ -2,7 +2,7 @@
 
 My notes on overthewire.org/wargames/bandit.
 
-Each level requires privilege escalation in order to escalate to the next level.
+Each level requires privilege escalation in order to escalate to the next level, often by accessing a password in one way or another.
 
 ## Level 0 
 
@@ -113,3 +113,4 @@ Escalating to Level 10 involved printing the password, which was a human-readabl
 G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
 ```
 
+## Level 10 → 11
