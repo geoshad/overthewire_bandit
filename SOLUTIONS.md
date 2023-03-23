@@ -26,7 +26,7 @@ NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 
 ## Level 1 → 2
 
-Escalating to Level 2 involved printing the contents of a file with an unorthodox filename. This filename needed special syntax in order to be distinguished.
+Escalating to Level 2 involved printing the contents of a file with an unorthodox filename. To be distinguished, this filename required the relative filepath to be included. Otherwise, the command `cat -` would be treated as if it's awaiting standard input.
 
 ```bash
 > cat ./-
@@ -121,3 +121,9 @@ Escalating to Level 11 involved decoding and printing the password from `data.tx
 > base64 -d data.txt
 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 ```
+
+## Level 11 → 12
+
+Escalating to Level 12
+
+
