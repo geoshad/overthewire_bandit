@@ -26,7 +26,7 @@ NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 
 ## Level 1 → 2
 
-Escalating to Level 2 involved printing the contents of a file with an unorthodox filename. This filename needed special syntax in order to be distinguished.
+Escalating to Level 2 involved printing the contents of a file with an unorthodox filename. To be distinguished, this filename required the relative filepath, `./`, to be included. Otherwise, the command `cat -` would be treated as if it is awaiting standard input.
 
 ```bash
 > cat ./-
