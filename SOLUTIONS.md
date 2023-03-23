@@ -124,7 +124,7 @@ Escalating to Level 11 involved decoding and printing the password from `data.tx
 
 ## Level 11 → 12
 
-Escalating to Level 12 involved decoding and printing the contents of a file, wherein its letters had been rotated 13 positions (ROT13). In order to rotate the letters
+Escalating to Level 12 involved decoding and printing the contents of a file, wherein its letters had been rotated 13 positions (ROT13). In order to rotate the letters, the `tr` command
 
 ```bash
 > cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
