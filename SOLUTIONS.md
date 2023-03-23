@@ -26,7 +26,7 @@ NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 
 ## Level 1 → 2
 
-Escalating to Level 2 involved printing the contents of a file with an unorthodox filename.
+Escalating to Level 2 involved printing the contents of a file with an unorthodox filename. This filename needed special syntax in order to be distinguished.
 
 ```bash
 > cat ./-
@@ -114,3 +114,10 @@ G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
 ```
 
 ## Level 10 → 11
+
+Escalating to Level 11 involved decoding and printing the password from `data.txt`, which contained base64 encoded data. The data can be decoded with the `base64` command with the `-d` flag.
+
+```bash
+> base64 -d data.txt
+6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+```
